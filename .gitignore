@@ -1,27 +1,31 @@
 # Ignore all files
-/*
-/*/
+*
+
 # Allow specific folders and their contents
-!/.config/nvim/
-!/.config/alacritty/
-!/.config/hypr/
-!/.config/rofi/
-!/.config/hyprpanel/
-!/.config/scripts/
-!/.config/mpv/
-!/.config/GIMP/custom/
-!/.config/kitty/
+!.config/
+!.config/nvim/
+!.config/alacritty/
+!.config/hypr/
+!.config/rofi/
+!.config/hyprpanel/
+!.config/scripts/
+!.config/mpv/
+!.config/GIMP/
+!.config/GIMP/custom/
+!.config/kitty/
+!.config/forge/
 
 # Allow files inside these folders to be tracked
-!/.config/nvim/*
-!/.config/alacritty/*
-!/.config/hypr/*
-!/.config/rofi/*
-!/.config/hyprpanel/*
-!/.config/scripts/*
-!/.config/mpv/*
-!/.config/GIMP/custom/*
-!/.config/kitty/*
+!.config/nvim/*
+!.config/alacritty/*
+!.config/hypr/**/*
+!.config/rofi/**/*
+!.config/hyprpanel/*
+!.config/scripts/*
+!.config/mpv/*
+!.config/GIMP/custom/*
+!.config/kitty/*
+!.config/forge/**/*
 
 # Allow specific files
 !requirements

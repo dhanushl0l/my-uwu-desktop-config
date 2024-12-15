@@ -1,0 +1,186 @@
+/**
+ *
+ * Author : Aditya Shakya (adi1090x)
+ * Github : @adi1090x
+ * 
+ * Rofi Theme File
+ * Rofi Version: 1.7.3
+ **/
+
+/*****----- Configuration -----*****/
+configuration {
+    show-icons:                 false;
+}
+
+/*****----- Global Properties -----*****/
+
+* {
+    /* Resolution : 1920x1080 */
+    box-spacing:                 50px;
+    box-margin:                  370px 350px;
+    message-margin:              0px 350px;
+    inputbar-spacing:            0px;
+    list-spacing:                50px;
+    general-padding:             20px;
+    element-padding:             55px 10px;
+    element-radius:              20px;
+    element-left:                80px;
+    general-radius:              100%;
+    element-font:                "ttf-firacode-nerd 48";
+
+    /* Standardized Colors */
+    background:                  #000000FF; /* Black */
+    foreground:                  #FFFFFFFF; /* White */
+    background-alt:              #111111FF; /* Darker Black */
+    selected:                    #888888FF; /* Gray */
+    active:                      #222222FF; /* Slightly lighter Black */
+    urgent:                      #FF0000FF; /* Red */
+}
+
+/*****----- Main Window -----*****/
+window {
+    transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  true;
+    width:                       1366px;
+    x-offset:                    0px;
+    y-offset:                    0px;
+
+    enabled:                     true;
+    margin:                      0px;
+    padding:                     0px;
+    border:                      0px solid;
+    border-radius:               0px;
+    border-color:                #888888FF;
+    cursor:                      "default";
+    background-color:            #000000FF;
+}
+
+/*****----- Main Box -----*****/
+mainbox {
+    enabled:                     true;
+    spacing:                     var(box-spacing);
+    margin:                      0px;
+    padding:                     var(box-margin);
+    border:                      0px solid;
+    border-radius:               0px;
+    border-color:                #888888FF;
+    background-color:            transparent;
+    children:                    [ "message", "listview" ];
+}
+
+/*****----- Inputbar -----*****/
+inputbar {
+    enabled:                     true;
+    spacing:                     var(inputbar-spacing);
+    margin:                      0px;
+    padding:                     0px;
+    border:                      0px;
+    border-radius:               0px;
+    border-color:                #888888FF;
+    background-color:            transparent;
+    text-color:                  #FFFFFFFF;
+    children:                    [ "dummy", "textbox-prompt-colon", "prompt", "dummy"];
+}
+
+dummy {
+    background-color:            transparent;
+}
+
+textbox-prompt-colon {
+    enabled:                     true;
+    expand:                      false;
+    str:                         "SYSTEM";
+    padding:                     var(general-padding);
+    border-radius:               var(general-radius);
+    background-color:            #FF0000FF; /* Red */
+    text-color:                  #000000FF; /* Black */
+}
+
+prompt {
+    enabled:                     true;
+    padding:                     var(general-padding);
+    border-radius:               var(general-radius);
+    background-color:            #222222FF;
+    text-color:                  #000000FF;
+}
+
+/*****----- Message -----*****/
+message {
+    enabled:                     true;
+    margin:                      var(message-margin);
+    padding:                     var(general-padding);
+    border:                      0px;
+    border-radius:               var(general-radius);
+    border-color:                #888888FF;
+    background-color:            #111111FF;
+    text-color:                  #FFFFFFFF;
+}
+textbox {
+    background-color:            inherit;
+    text-color:                  inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+    placeholder-color:           #FFFFFFFF;
+    blink:                       true;
+    markup:                      true;
+}
+error-message {
+    padding:                     var(general-padding);
+    border:                      0px solid;
+    border-radius:               var(general-radius);
+    border-color:                #888888FF;
+    background-color:            #000000FF;
+    text-color:                  #FFFFFFFF;
+}
+
+/*****----- Listview -----*****/
+listview {
+    enabled:                     true;
+    columns:                     5;
+    lines:                       1;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    
+    spacing:                     var(list-spacing);
+    margin:                      0px;
+    padding:                     0px;
+    border:                      0px solid;
+    border-radius:               0px;
+    border-color:                #888888FF;
+    background-color:            transparent;
+    text-color:                  #FFFFFFFF;
+    cursor:                      "default";
+}
+
+/*****----- Elements -----*****/
+element {
+    enabled:                     true;
+    spacing:                     0px;
+    margin:                      0px;
+    padding:                     var(element-padding);
+    border:                      0px solid;
+    border-radius:               var(element-radius);
+    border-color:                #888888FF;
+    background-color:            #111111FF;
+    text-color:                  #FFFFFFFF;
+    cursor:                      pointer;
+}
+element-text {
+    font:                        var(element-font);
+    background-color:            transparent;
+    text-color:                  inherit;
+    cursor:                      inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.45;
+}
+element selected.normal {
+    background-color:            #990009FF;
+    text-color:                  #000000FF;
+}
