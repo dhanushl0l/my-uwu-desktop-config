@@ -1,0 +1,17 @@
+//applications
+imv
+rofi-wayland
+rofi-emoji -> aur
+hyprlock
+hyprpaper
+e2fsprogs
+ntfs-3g
+lsd
+mpv
+
+// fonts
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+ttf-firacode-nerd
+ttf-material-design-iconic-font -> aur

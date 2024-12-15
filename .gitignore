@@ -1,0 +1,29 @@
+# Ignore all files
+/*
+/*/
+# Allow specific folders and their contents
+!/.config/nvim/
+!/.config/alacritty/
+!/.config/hypr/
+!/.config/rofi/
+!/.config/hyprpanel/
+!/.config/scripts/
+!/.config/mpv/
+!/.config/GIMP/custom/
+!/.config/kitty/
+
+# Allow files inside these folders to be tracked
+!/.config/nvim/*
+!/.config/alacritty/*
+!/.config/hypr/*
+!/.config/rofi/*
+!/.config/hyprpanel/*
+!/.config/scripts/*
+!/.config/mpv/*
+!/.config/GIMP/custom/*
+!/.config/kitty/*
+
+# Allow specific files
+!requirements
+!.bashrc
+!.gitignore
