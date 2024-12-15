@@ -8,6 +8,7 @@ e2fsprogs
 ntfs-3g
 lsd
 mpv
+catppuccin-gtk-theme-mocha -> aur
 
 // fonts
 noto-fonts
