@@ -30,6 +30,7 @@
 !assets/*
 
 # Allow specific files
+!.config/starship.toml
 !requirements
 !.bashrc
 !.gitignore
