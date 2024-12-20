@@ -69,7 +69,8 @@ run_cmd() {
                 systemctl reboot
                 ;;
             '--suspend')
-                systemctl suspend
+                hyprlock &
+                sleep 2; systemctl suspend
                 ;;
             '--logout')
                 hyprctl dispatch exit
@@ -83,6 +84,7 @@ run_cmd() {
         exit 0
     fi
 }
+
 
 
 # Actions

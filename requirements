@@ -1,4 +1,4 @@
-//applications
+//packages
 imv
 rofi-wayland
 rofi-emoji -> aur
@@ -9,6 +9,17 @@ ntfs-3g
 lsd
 mpv
 catppuccin-gtk-theme-mocha -> aur
+hypridle
+zen-browser-avx2-bin -> aur
+vscodium-bin
+pavucontrol
+nautilus
+android-tools 
+android-udev 
+gvfs-mtp 
+gvfs-gphoto2 
+libmtp 
+
 
 // fonts
 noto-fonts
@@ -16,3 +27,6 @@ noto-fonts-cjk
 noto-fonts-emoji
 ttf-firacode-nerd
 ttf-material-design-iconic-font -> aur
+
+//
+starship
