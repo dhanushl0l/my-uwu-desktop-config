@@ -32,70 +32,69 @@ bindings = [
 
 [colors.primary]
 background = "#000000"
-foreground = "#cdd6f4"
-dim_foreground = "#6c7086"
-bright_foreground = "#cdd6f4"
+foreground = "#ffffff"
+dim_foreground = "#888888"
+bright_foreground = "#eaeaea"
 
 [colors.cursor]
-text = "#1e1e2e"
-cursor = "#f5e0dc"
+text = "#0f0f0f"
+cursor = "#ff7b7b"
 
 [colors.vi_mode_cursor]
-text = "#1e1e2e"
-cursor = "#b4befe"
+text = "#0f0f0f"
+cursor = "#ff5555"
 
 [colors.search.matches]
-foreground = "#1e1e2e"
-background = "#f38ba8"
+foreground = "#0f0f0f"
+background = "#ff8888"
 
 [colors.search.focused_match]
-foreground = "#1e1e2e"
-background = "#a6e3a1"
+foreground = "#0f0f0f"
+background = "#ffaa55"
 
 [colors.footer_bar]
-foreground = "#1e1e2e"
-background = "#6c7086"
+foreground = "#0f0f0f"
+background = "#666666"
 
 [colors.hints.start]
-foreground = "#1e1e2e"
-background = "#fab387"
+foreground = "#0f0f0f"
+background = "#ffa500"
 
 [colors.hints.end]
-foreground = "#1e1e2e"
-background = "#89b4fa"
+foreground = "#0f0f0f"
+background = "#55aaff"
 
 [colors.selection]
-text = "#1e1e2e"
-background = "#f5c2e7"
+text = "#0f0f0f"
+background = "#ff99cc"
 
 [colors.normal]
-black = "#45475a"
-red = "#f38ba8"
-green = "#a6e3a1"
-yellow = "#f9e2af"
-blue = "#89b4fa"
-magenta = "#f5c2e7"
-cyan = "#94e2d5"
-white = "#bac2de"
+black = "#222222"
+red = "#ff4444"
+green = "#55ff55"
+yellow = "#ffff55"
+blue = "#5599ff"
+magenta = "#ff55ff"
+cyan = "#55ffff"
+white = "#cccccc"
 
 [colors.bright]
-black = "#585b70"
-red = "#f38ba8"
-green = "#a6e3a1"
-yellow = "#f9e2af"
-blue = "#89b4fa"
-magenta = "#f5c2e7"
-cyan = "#94e2d5"
-white = "#cdd6f4"
+black = "#333333"
+red = "#ff6666"
+green = "#77ff77"
+yellow = "#ffff77"
+blue = "#77aaff"
+magenta = "#ff77ff"
+cyan = "#77ffff"
+white = "#eeeeee"
 
 [[colors.indexed_colors]]
 index = 16
-color = "#fab387"
+color = "#ff5555"
 
 [[colors.indexed_colors]]
 index = 17
-color = "#f5e0dc"
-
+color = "#ffaaff"
 
 [font]
 normal = { family = "FiraCode Nerd Font", style = "Regular" }
