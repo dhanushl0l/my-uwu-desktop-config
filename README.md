@@ -24,7 +24,7 @@ This setup is specific to my system and not recommended for you, as it most like
 ![My Setup](assets/setup1.png)
 ![My Setup](assets/setup2.png)
 ![My Setup](assets/setup3.png)
-
+![My Setup](assets/setup4.png)
 
 ---
 
