@@ -14,6 +14,8 @@
 !.config/GIMP/custom/
 !.config/kitty/
 !.config/forge/
+!.config/waybar/
+!.config/MangoHud/
 !assets/
 
 # Allow files inside these folders to be tracked
@@ -27,6 +29,8 @@
 !.config/GIMP/custom/*
 !.config/kitty/*
 !.config/forge/**/*
+!.config/waybar/*
+!.config/MangoHud/*
 !assets/*
 
 # Allow specific files
