@@ -6,36 +6,31 @@
 }
 
 window#waybar {
-  background: black;
+  background: #010101;
   margin: 0;
   margin-left: 100px;
 }
 
 #workspaces button {
   padding: 0 0px;
-  margin: 0 2px;
+  margin: 0 0px;
   min-width: 20px;
-  color: #bababa;
-  border-radius: 1%;
+  color: #ffffff;
+  border-radius: 0%;
 }
 
 #workspaces button.active {
-  background-color: #bababa;
-  color: #1e1e2e;
+  border-radius: 0%;
+  background-color: #F5F5F5;
+  color: #010101;
 }
 
-#workspaces button.urgent {
-  color: #f38ba8;
-}
-
-#workspaces button.hidden {
-  color: #f38ba8;
-}
+/* 
+#workspaces {
+  margin-left: 5px;
+} */
 
 .modules-right {
-  padding-left: 5px;
-  border-radius: 0px 0 0 5px;
-  background: #000000;
   font-size: 10px;
 }
 
@@ -55,8 +50,8 @@ window#waybar {
 #idle_inhibitor,
 #jack,
 #tray,
-#window,
-#workspaces {
+#window {
+  color: #F5F5F5;
   padding: 0 5px;
 }
 
@@ -72,7 +67,7 @@ window#waybar {
 }
 
 #clock {
-  color: #bababa;
+  color: #F5F5F5;
 }
 
 #tray {

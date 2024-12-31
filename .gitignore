@@ -15,11 +15,13 @@
 !.config/kitty/
 !.config/forge/
 !.config/waybar/
+!.config/dunst/
 !.config/MangoHud/
 !assets/
 
 # Allow files inside these folders to be tracked
 !.config/nvim/*
+!.config/dunst/dunstrc
 !.config/alacritty/*
 !.config/hypr/**/*
 !.config/rofi/**/*

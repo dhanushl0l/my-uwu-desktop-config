@@ -73,7 +73,7 @@ run_cmd() {
                 sleep 2; systemctl suspend
                 ;;
             '--logout')
-                hyprctl dispatch exit
+                pkill -u $(whoami)
                 ;;
             *)
                 echo "Invalid option: $1"
