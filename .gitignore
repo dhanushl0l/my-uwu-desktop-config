@@ -37,7 +37,7 @@
 
 # Allow specific files
 !.config/starship.toml
-!requirements
+!requirements.sh
 !.bashrc
 !.gitignore
 !README.md
