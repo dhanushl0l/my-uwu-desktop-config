@@ -7,12 +7,8 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-PS1='[\u@\h \W]\$ '
-. "$HOME/.cargo/env"
 
 export PATH=$PATH:/home/dhanu/.spicetify
-
-eval "$(starship init bash)"
 
 alias ll='lsd -a --group-dirs=first'
 
@@ -21,3 +17,4 @@ export LIBVA_DRIVER_NAME=nvidia
 export MOZ_DISABLE_RDD_SANDBOX=1
 export NVD_BACKEND=direct
 export QT_CURSOR_SIZE=24
+. "$HOME/.cargo/env"

@@ -32,4 +32,10 @@ for input in $(pactl list short sink-inputs | awk '{print $1}'); do
     pactl move-sink-input "$input" "${sinks[$next_index]}"
 done
 
+# Get the human-readable name of the current sink
+sink_description=$(pactl list sinks | grep -A 10 "Name: ${sinks[$next_index]}" | grep "Description:" | cut -d ' ' -f2-)
+
+# Send a notification with a persistent tag to avoid creating new ones
+notify-send -h string:x-dunst-stack-tag:audio-switch -u low -i audio-speakers "Audio Output Switched 🎵" "$sink_description"
+
 echo "Switched to sink: ${sinks[$next_index]}"

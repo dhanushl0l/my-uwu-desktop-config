@@ -11,6 +11,7 @@ PACMAN_PACKAGES=(
     ntfs-3g
     lsd
     mpv
+    wl-clipboard
     hypridle
     pavucontrol
     nautilus

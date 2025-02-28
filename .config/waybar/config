@@ -1,9 +1,7 @@
 {
-  // "mode": "overlay",
   "layer": "top",
   "position": "bottom",
   "margin": 0,
-  "output": "DP-1",
   "height": 18,
   
   "modules-center":["hyprland/window"],
