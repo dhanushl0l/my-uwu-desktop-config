@@ -11,6 +11,7 @@
 !.config/scripts/
 !.config/mpv/
 !.config/GIMP/
+!.config/fish/
 !.config/GIMP/custom/
 !.config/kitty/
 !.config/forge/
