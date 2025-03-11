@@ -37,6 +37,7 @@
 
 # Allow specific files
 !.config/starship.toml
+!.config/fish/config.fish
 !requirements.sh
 !.bashrc
 !.gitignore
