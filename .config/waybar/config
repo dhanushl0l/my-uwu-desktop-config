@@ -3,9 +3,9 @@
   "position": "bottom",
   "margin": 0,
   "height": 18,
-  
+  "output": "DP-3",
   "modules-center":["hyprland/window"],
-  "modules-left": ["hyprland/workspaces"],
+  "modules-left": ["hyprland/workspaces","wlr/taskbar"],
   "modules-right": ["tray", "cpu","memory", "pulseaudio", "clock"],
 
 "hyprland/workspaces": {
@@ -35,11 +35,38 @@
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
 },
 
+"wlr/taskbar": {
+  "spacing": 10,
+  "icon-size": 14,
+  "on-click": "activate",
+  "on-click-middle": "close"
+},
 
 "hyprland/window": {
+  "separate-outputs": false,
   "rewrite": {
-    "^$": "hyprland"
-  }
+  
+    "": 
+      "  Hyprland",
+
+    "~": "   Terminal",
+    "zsh": "   Terminal",
+    "class<kitty>": "   Terminal",
+
+    "VLC media player": 
+      "󰕼   VLC Media Player",
+    "(.*) - VLC media player": 
+      "󰕼   VLC | $1",
+
+    "(.*) - mpv": 
+      "   MPV | $1",
+    
+    "Authenticate": 
+      "󰻌   Authenticate",
+    
+    "• Discord(.*)": "Discord$1",
+    "(.*)Discord(.*)": "   $1Discord$2",
+    }
 },
 
 "pulseaudio": {
@@ -51,6 +78,5 @@
                 "default": ["", "", ""]
             }
 }
-
 }
 

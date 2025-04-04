@@ -50,6 +50,7 @@ window#waybar {
 #idle_inhibitor,
 #jack,
 #tray,
+#taskbar,
 #window {
   color: #F5F5F5;
   padding: 0 5px;
@@ -72,4 +73,22 @@ window#waybar {
 
 #tray {
   font-size: 10px;
+}
+
+#taskbar {
+  margin-left: 5;
+  padding: 0;
+  border-radius: 0;
+}
+
+#taskbar button {
+  margin-left: 2;
+  margin-right: 2;
+  padding: 0;
+  border: none;
+}
+
+#taskbar button:hover {
+  box-shadow: none;
+  border: none;
 }
