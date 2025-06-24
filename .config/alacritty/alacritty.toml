@@ -1,8 +1,9 @@
 # Alacritty Configuration
 
 [window]
-decorations = "none"  # Disable window decorations (no title bar, borders, etc.)
-padding = { x = 20, y = 20 }  # Set margin of 10 on all sides
+decorations = "None"  # Disable window decorations (no title bar, borders, etc.)
+position = "None"
+padding = { x = 0, y = 0 }  # Set margin of 10 on all sides
 blur = true
 dimensions = { columns = 90, lines = 30 }
 opacity = 0.7
