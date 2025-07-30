@@ -18,3 +18,5 @@ export MOZ_DISABLE_RDD_SANDBOX=1
 export NVD_BACKEND=direct
 export QT_CURSOR_SIZE=24
 . "$HOME/.cargo/env"
+export ANDROID_SDK_ROOT=~/android-sdk/cmdline-tools/latest/cmdline-tools/bin/
+export ANDROID_SDK_ROOT=~/android-sdk
